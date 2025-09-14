@@ -83,5 +83,5 @@ projeto-cambio/
 ---
 
 ## 📌 Observações
-- O pipeline foi estruturado de forma **modular**, permitindo evolução futura (como conexão com banco de dados, gráficos usando **Matplotlib** e **Seaborn**, ou agendamento automático).  
+- O pipeline foi estruturado de forma **modular**, permitindo evolução futura (como conexão com banco de dados, dashboards no Power BI, ou agendamento automático).  
 - O objetivo é **simular o fluxo real de um engenheiro/analista de dados**, mas em um escopo didático.  
