@@ -1,5 +1,18 @@
 {
-    "python-envs.pythonProjects": [],
-    "python-envs.defaultEnvManager": "ms-python.python:venv",
-    "python-envs.defaultPackageManager": "ms-python.python:pip"
+  // Usa o interpretador do seu venv
+  "python.defaultInterpreterPath": "c:/Users/Jean/Desktop/cursos_alura/spark_marketing/venv/Scripts/python.exe",
+
+  // Autocomplete e imports automáticos
+  "python.analysis.autoImportCompletions": true,
+
+  // Ignora erros de import falso (quando lib já está instalada)
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  },
+
+  // Checagem de tipos (pode ser: "off", "basic", "strict")
+  "python.analysis.typeCheckingMode": "basic",
+
+  // Evita Pylance travar
+  "python.analysis.cacheFolderPath": ".vscode/.pylance-cache"
 }
