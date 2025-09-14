@@ -17,8 +17,7 @@ def dados_curated(parquet_file_path: str) -> None:
         else:
             print('Coluna "cotação" não encontrada no DataFrame.')
 
-        # print('Primeiras 5 linhas:')
-        # print(df.head())
+
     except FileNotFoundError:
         print(f'Erro: Arquivo não encontrado {parquet_file_path}')
     except Exception as e:
