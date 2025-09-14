@@ -1,5 +1,3 @@
-#type:ignore
-
 import requests
 
 def cambios(moeda_local: str = "BRL"):
@@ -13,7 +11,7 @@ def cambios(moeda_local: str = "BRL"):
         print(f'Erro ao conectar na API: {erro}')
         return 
     except ValueError as erro:
-        prin(f'Erro ao fazer o Json: {erro}')   
+        print(f'Erro ao fazer o Json: {erro}')   
         return
     
 if __name__ == "__main__":
